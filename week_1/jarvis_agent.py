@@ -1,14 +1,14 @@
-import os
+import os   #reads environment variables from your system. Used to get your API key securely.
 import json
-import requests
-from dotenv import load_dotenv
+import requests #get_weather() to call the weather API.
+from dotenv import load_dotenv # reads .env file.
 from groq import Groq
 
-load_dotenv()
+load_dotenv()   #reads the .env file and loads GROQ_API_KEY into your environment.
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-def get_weather(city):
+def get_weather(city):    # weather tool
     try:
         response = requests.get(f"https://wttr.in/{city}?format=j1")
         data = response.json()
@@ -18,7 +18,7 @@ def get_weather(city):
     except:
         return f"Could not get weather for {city}"
     
-class Agent:
+class Agent:   #agent class
      def __init__(self, name, role):
         self.name = name
         self.role = role
@@ -27,16 +27,16 @@ class Agent:
             {"role": "system", "content": f"You are {name}, an AI {role} agent. You analyze data and give clear concise insights."}
         ]
 
-     def think(self, task):
+     def think(self, task): # think function
         self.memory.append(task)
         print(f"{self.name} is thinking about: {task}")
 
-     def save_memory(self):
+     def save_memory(self): #save memory to json file 
         with open(f"{self.name}_memory.json", "w") as f:
             json.dump(self.memory, f)
         print(f"{self.name}'s memory saved!")
 
-     def load_memory(self):
+     def load_memory(self): #load memory from json file if available 
         try:
             with open(f"{self.name}_memory.json", "r") as f:
                 self.memory = json.load(f)
@@ -59,8 +59,7 @@ class Agent:
         return reply
             
      
-
-jarvis = Agent("Jarvis", "data analyst")
+jarvis = Agent("Jarvis", "data analyst") # Run agent
 jarvis.load_memory()
 
 print(f"\n{jarvis.name} is ready! Type 'weather' for weather, 'memory' to see memory, 'quit' to exit\n")
