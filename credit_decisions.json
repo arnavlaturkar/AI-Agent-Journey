@@ -1,0 +1,52 @@
+[
+    {
+        "borrower_summary": "John Smith, annual income $90k, existing debt $8k, requested repayment $250 per month",
+        "monthly_income": 7500,
+        "existing_debt_payment": 333.33,
+        "total_monthly_debt": 583.33,
+        "dti_ratio": 7.78,
+        "risk_level": "LOW",
+        "red_flags": [],
+        "recommendation": "APPROVE",
+        "reason": "DTI below 30% indicates low risk",
+        "name": "John Smith"
+    },
+    {
+        "borrower_summary": "Raj Patel with annual income $25,000 and existing debt $20,000, seeking $600 monthly repayment",
+        "monthly_income": 2083.33,
+        "existing_debt_payment": 833.33,
+        "total_monthly_debt": 1433.33,
+        "dti_ratio": 68.75,
+        "risk_level": "HIGH",
+        "red_flags": [
+            "DTI ratio exceeds 43%"
+        ],
+        "recommendation": "REJECT",
+        "reason": "High debt-to-income ratio",
+        "name": "Raj Patel"
+    },
+    {
+        "borrower_summary": "Sarah Jones, applicant with moderate income and low debt",
+        "monthly_income": 4583.33,
+        "existing_debt_payment": 500,
+        "total_monthly_debt": 850,
+        "dti_ratio": 18.54,
+        "risk_level": "LOW",
+        "red_flags": [],
+        "recommendation": "APPROVE",
+        "reason": "DTI below 30% and no red flags",
+        "name": "Sarah Jones"
+    },
+    {
+        "borrower_summary": "Priya Shah, annual income $120000, existing debt $5000, requested monthly repayment $400",
+        "monthly_income": 10000,
+        "existing_debt_payment": 208.33,
+        "total_monthly_debt": 608.33,
+        "dti_ratio": 6.08,
+        "risk_level": "LOW",
+        "red_flags": [],
+        "recommendation": "APPROVE",
+        "reason": "DTI ratio is well below 30, indicating low credit risk",
+        "name": "Priya Shah"
+    }
+]
