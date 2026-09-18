@@ -1,0 +1,52 @@
+[
+  {
+    "borrower_name": "jack",
+    "monthly_income": 5000,
+    "monthly_debt": 1000,
+    "dti_ratio": 20.0,
+    "repayment_history": "Fair",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is fair, so risk is low."
+  },
+  {
+    "borrower_name": "Raj",
+    "monthly_income": 3000,
+    "monthly_debt": 1000,
+    "dti_ratio": 33.33333333333333,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 33.33% and poor repayment history pushes risk to high, so reject."
+  },
+  {
+    "borrower_name": "Bhavya",
+    "monthly_income": 4000,
+    "monthly_debt": 1200,
+    "dti_ratio": 30.0,
+    "repayment_history": "Good",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is good, so risk is medium and loan approved."
+  },
+  {
+    "borrower_name": "Sharvil",
+    "monthly_income": 4000,
+    "monthly_debt": 1500,
+    "dti_ratio": 37.5,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "The borrower has a DTI of 37.5% and a fair repayment history, placing them in the medium risk category."
+  },
+  {
+    "borrower_name": "Nirmit",
+    "monthly_income": 6000,
+    "monthly_debt": 1500,
+    "dti_ratio": 25,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 25% and repayment history is excellent."
+  }
+]
