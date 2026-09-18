@@ -92,16 +92,16 @@ streamlit run app.py
 ## 📸 Screenshots
 
 **Input Form**
-![Input Form](screenshots/form.png)
+![Input Form](Screenshots/form.png)
 
 **Json Form**
-![Data Json Format](screenshots/json_form.png)
+![Data Json Format](Screenshots/json_form.png)
 
 **Approve Decision**
-![Approve Decision](screenshots/approve.png)
+![Approve Decision](Screenshots/approve.png)
 
 **Reject Decision**
-![Reject Decision](screenshots/reject.png)
+![Reject Decision](Screenshots/reject.png)
 
 ---
 
