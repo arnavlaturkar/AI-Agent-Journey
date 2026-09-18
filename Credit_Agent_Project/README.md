@@ -89,6 +89,21 @@ streamlit run app.py
 ```
 
 ---
+## 📸 Screenshots
+
+**Input Form**
+![Input Form](screenshots/form.png)
+
+**Json Form**
+![Data Json Format](screenshots/json_form.png)
+
+**Approve Decision**
+![Approve Decision](screenshots/approve.png)
+
+**Reject Decision**
+![Reject Decision](screenshots/reject.png)
+
+---
 
 ## 👤 Author
 
