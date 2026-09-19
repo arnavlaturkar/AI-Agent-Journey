@@ -13,6 +13,7 @@ Built as Portfolio Project 1 in my transition from Data Analysis into Agentic AI
 - LLM calculates DTI ratio, assigns risk level, and returns a JSON decision
 - App displays APPROVE ✅ or REJECT ❌ with full reasoning
 - Persists all decisions to a local JSON file for audit trail
+- Accepts CSV upload for batch analysis — processes multiple borrowers at once and exports results
 
 ---
 
@@ -102,6 +103,18 @@ streamlit run app.py
 
 **Reject Decision**
 ![Reject Decision](Screenshots/reject.png)
+
+**Batch Input View**
+![Batch Input View](Screenshots/batch_form.png)
+
+**Table View**
+![Table View](Screenshots/table.png)
+
+**Result View**
+![Result View](Screenshots/result.png)
+
+**Result CSV View**
+![Result CSV View](Screenshots/result_csv.png)
 
 ---
 

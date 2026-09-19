@@ -88,5 +88,615 @@
     "risk_level": "HIGH",
     "decision": "REJECT",
     "reason": "High debt-to-income ratio and poor repayment history indicate elevated risk."
+  },
+  {
+    "borrower_name": "SSL",
+    "monthly_income": 5000,
+    "monthly_debt": 1000,
+    "dti_ratio": 20.0,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Jack",
+    "monthly_income": 5000,
+    "monthly_debt": 1000,
+    "dti_ratio": 20,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "Jack's DTI is 20% and repayment history is good, so risk is low and loan approved."
+  },
+  {
+    "borrower_name": "Raj",
+    "monthly_income": 3000,
+    "monthly_debt": 2000,
+    "dti_ratio": 66.66666666666666,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 66.67% and repayment history is poor, indicating high risk."
+  },
+  {
+    "borrower_name": "Bhavya",
+    "monthly_income": 4000,
+    "monthly_debt": 1200,
+    "dti_ratio": 30.0,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and excellent repayment history reduces risk to LOW, so approved."
+  },
+  {
+    "borrower_name": "Maria",
+    "monthly_income": 6000,
+    "monthly_debt": 1500,
+    "dti_ratio": 25,
+    "repayment_history": "Fair",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "Maria's DTI is 25%, below the 30% threshold, indicating a low risk."
+  },
+  {
+    "borrower_name": "Ahmed",
+    "monthly_income": 2500,
+    "monthly_debt": 1800,
+    "dti_ratio": 72,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "High debt-to-income ratio and poor repayment history indicate high risk."
+  },
+  {
+    "borrower_name": "Priya",
+    "monthly_income": 8000,
+    "monthly_debt": 1200,
+    "dti_ratio": 15.0,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history excellent, indicating low risk."
+  },
+  {
+    "borrower_name": "Ravi",
+    "monthly_income": 4500,
+    "monthly_debt": 900,
+    "dti_ratio": 20,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Sara",
+    "monthly_income": 3200,
+    "monthly_debt": 1600,
+    "dti_ratio": 50,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 50% and repayment history is fair, placing the borrower in a medium risk category, so the loan is approved."
+  },
+  {
+    "borrower_name": "Tom",
+    "monthly_income": 7000,
+    "monthly_debt": 2100,
+    "dti_ratio": 30.0,
+    "repayment_history": "Good",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "Tom's DTI is 30% and repayment history is good, so risk is medium and loan is approved."
+  },
+  {
+    "borrower_name": "Neha",
+    "monthly_income": 5500,
+    "monthly_debt": 2750,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "The borrower\u2019s DTI ratio of 50 combined with a poor repayment history elevates the risk to high, warranting rejection."
+  },
+  {
+    "borrower_name": "Arjun",
+    "monthly_income": 9000,
+    "monthly_debt": 1800,
+    "dti_ratio": 20,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and excellent repayment history, indicating low risk."
+  },
+  {
+    "borrower_name": "Fatima",
+    "monthly_income": 3800,
+    "monthly_debt": 1140,
+    "dti_ratio": 30.0,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing the borrower in the medium risk category, so the loan is approved."
+  },
+  {
+    "borrower_name": "Chen",
+    "monthly_income": 6200,
+    "monthly_debt": 930,
+    "dti_ratio": 15.0,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is excellent, indicating a low risk borrower."
+  },
+  {
+    "borrower_name": "Meera",
+    "monthly_income": 2800,
+    "monthly_debt": 1400,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 50 and poor repayment history pushes risk to high, so loan is rejected."
+  },
+  {
+    "borrower_name": "Lucas",
+    "monthly_income": 7500,
+    "monthly_debt": 1500,
+    "dti_ratio": 20,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Ananya",
+    "monthly_income": 4200,
+    "monthly_debt": 1260,
+    "dti_ratio": 30.0,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing the borrower in a medium risk category."
+  },
+  {
+    "borrower_name": "Omar",
+    "monthly_income": 5800,
+    "monthly_debt": 870,
+    "dti_ratio": 15,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is excellent, indicating low risk."
+  },
+  {
+    "borrower_name": "Divya",
+    "monthly_income": 3100,
+    "monthly_debt": 1550,
+    "dti_ratio": 50.0,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI ratio of 50% and poor repayment history push risk to high, so loan is rejected."
+  },
+  {
+    "borrower_name": "Ethan",
+    "monthly_income": 6800,
+    "monthly_debt": 2040,
+    "dti_ratio": 30,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing borrower in medium risk, so approved."
+  },
+  {
+    "borrower_name": "Pooja",
+    "monthly_income": 4900,
+    "monthly_debt": 980,
+    "dti_ratio": 20.0,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, so risk is low."
+  },
+  {
+    "borrower_name": "Vikram",
+    "monthly_income": 3500,
+    "monthly_debt": 1750,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "High debt-to-income ratio and poor repayment history indicate elevated risk."
+  },
+  {
+    "borrower_name": "Sofia",
+    "monthly_income": 8500,
+    "monthly_debt": 1275,
+    "dti_ratio": 15.0,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15%, well below 30% and excellent repayment history ensures low risk."
+  },
+  {
+    "borrower_name": "Rohan",
+    "monthly_income": 4100,
+    "monthly_debt": 1230,
+    "dti_ratio": 30,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing borrower in medium risk, so approved."
+  },
+  {
+    "borrower_name": "Nina",
+    "monthly_income": 6300,
+    "monthly_debt": 945,
+    "dti_ratio": 15.0,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Kabir",
+    "monthly_income": 2900,
+    "monthly_debt": 1450,
+    "dti_ratio": 50.0,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 50% and poor repayment history pushes risk to high, so reject."
+  },
+  {
+    "borrower_name": "Zara",
+    "monthly_income": 7200,
+    "monthly_debt": 1440,
+    "dti_ratio": 20,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is excellent, indicating low risk."
+  },
+  {
+    "borrower_name": "Amit",
+    "monthly_income": 5100,
+    "monthly_debt": 1530,
+    "dti_ratio": 30,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing borrower in medium risk, so approved."
+  },
+  {
+    "borrower_name": "Elena",
+    "monthly_income": 3700,
+    "monthly_debt": 1110,
+    "dti_ratio": 30,
+    "repayment_history": "Good",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is good, so risk is medium and the loan is approved."
+  },
+  {
+    "borrower_name": "Kiran",
+    "monthly_income": 8200,
+    "monthly_debt": 2460,
+    "dti_ratio": 30.0,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 30% and poor repayment history pushes risk to high, so reject."
+  },
+  {
+    "borrower_name": "James",
+    "monthly_income": 6600,
+    "monthly_debt": 990,
+    "dti_ratio": 15,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "James has a low DTI of 15% and an excellent repayment history, making him a low-risk borrower."
+  },
+  {
+    "borrower_name": "Jack",
+    "monthly_income": 5000,
+    "monthly_debt": 1000,
+    "dti_ratio": 20,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "Jack\u2019s DTI is 20%, well below the 30% threshold, and his good repayment history supports a low risk assessment."
+  },
+  {
+    "borrower_name": "Raj",
+    "monthly_income": 3000,
+    "monthly_debt": 2000,
+    "dti_ratio": 66.66666666666666,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "The borrower\u2019s debt-to-income ratio is 66.67%, which places them in the high risk category, and a poor repayment history further increases risk."
+  },
+  {
+    "borrower_name": "Bhavya",
+    "monthly_income": 4000,
+    "monthly_debt": 1200,
+    "dti_ratio": 30,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and excellent repayment history reduces risk to LOW, so approved."
+  },
+  {
+    "borrower_name": "Maria",
+    "monthly_income": 6000,
+    "monthly_debt": 1500,
+    "dti_ratio": 25,
+    "repayment_history": "Fair",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "Maria's DTI is 25% and repayment history is fair, indicating a low risk profile."
+  },
+  {
+    "borrower_name": "Ahmed",
+    "monthly_income": 2500,
+    "monthly_debt": 1800,
+    "dti_ratio": 72,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 72% and repayment history is poor, indicating high risk."
+  },
+  {
+    "borrower_name": "Priya",
+    "monthly_income": 8000,
+    "monthly_debt": 1200,
+    "dti_ratio": 15,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is excellent, indicating a low risk borrower."
+  },
+  {
+    "borrower_name": "Ravi",
+    "monthly_income": 4500,
+    "monthly_debt": 900,
+    "dti_ratio": 20,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Sara",
+    "monthly_income": 3200,
+    "monthly_debt": 1600,
+    "dti_ratio": 50,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 50% and repayment history is fair, placing the borrower in the medium risk category, so the loan is approved."
+  },
+  {
+    "borrower_name": "Tom",
+    "monthly_income": 7000,
+    "monthly_debt": 2100,
+    "dti_ratio": 30,
+    "repayment_history": "Good",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is good, so risk is medium and the loan is approved."
+  },
+  {
+    "borrower_name": "Neha",
+    "monthly_income": 5500,
+    "monthly_debt": 2750,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 50% and poor repayment history pushes risk to high, so loan is rejected."
+  },
+  {
+    "borrower_name": "Arjun",
+    "monthly_income": 9000,
+    "monthly_debt": 1800,
+    "dti_ratio": 20,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and excellent repayment history, so low risk."
+  },
+  {
+    "borrower_name": "Fatima",
+    "monthly_income": 3800,
+    "monthly_debt": 1140,
+    "dti_ratio": 30,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing borrower in medium risk, so approved."
+  },
+  {
+    "borrower_name": "Chen",
+    "monthly_income": 6200,
+    "monthly_debt": 930,
+    "dti_ratio": 15.0,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history excellent, indicating low risk."
+  },
+  {
+    "borrower_name": "Meera",
+    "monthly_income": 2800,
+    "monthly_debt": 1400,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI ratio of 50 combined with poor repayment history pushes risk to high, so loan is rejected."
+  },
+  {
+    "borrower_name": "Lucas",
+    "monthly_income": 7500,
+    "monthly_debt": 1500,
+    "dti_ratio": 20,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Ananya",
+    "monthly_income": 4200,
+    "monthly_debt": 1260,
+    "dti_ratio": 30.0,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, so risk is medium and loan approved."
+  },
+  {
+    "borrower_name": "Omar",
+    "monthly_income": 5800,
+    "monthly_debt": 870,
+    "dti_ratio": 15,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history excellent, indicating low risk."
+  },
+  {
+    "borrower_name": "Divya",
+    "monthly_income": 3100,
+    "monthly_debt": 1550,
+    "dti_ratio": 50.0,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 50% and poor repayment history pushes risk to high, so reject."
+  },
+  {
+    "borrower_name": "Ethan",
+    "monthly_income": 6800,
+    "monthly_debt": 2040,
+    "dti_ratio": 30,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing the borrower in a medium risk category, so the loan is approved."
+  },
+  {
+    "borrower_name": "Pooja",
+    "monthly_income": 4900,
+    "monthly_debt": 980,
+    "dti_ratio": 20.0,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Vikram",
+    "monthly_income": 3500,
+    "monthly_debt": 1750,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "The borrower\u2019s DTI is 50, and a poor repayment history pushes the risk to high, warranting rejection."
+  },
+  {
+    "borrower_name": "Sofia",
+    "monthly_income": 8500,
+    "monthly_debt": 1275,
+    "dti_ratio": 15,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is excellent, indicating a low risk."
+  },
+  {
+    "borrower_name": "Rohan",
+    "monthly_income": 4100,
+    "monthly_debt": 1230,
+    "dti_ratio": 30,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is fair, placing borrower in medium risk, so approved."
+  },
+  {
+    "borrower_name": "Nina",
+    "monthly_income": 6300,
+    "monthly_debt": 945,
+    "dti_ratio": 15,
+    "repayment_history": "Good",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is good, indicating low risk."
+  },
+  {
+    "borrower_name": "Kabir",
+    "monthly_income": 2900,
+    "monthly_debt": 1450,
+    "dti_ratio": 50,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 50% and poor repayment history pushes risk to high, so reject."
+  },
+  {
+    "borrower_name": "Zara",
+    "monthly_income": 7200,
+    "monthly_debt": 1440,
+    "dti_ratio": 20,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 20% and excellent repayment history, indicating low risk."
+  },
+  {
+    "borrower_name": "Amit",
+    "monthly_income": 5100,
+    "monthly_debt": 1530,
+    "dti_ratio": 30.0,
+    "repayment_history": "Fair",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history fair, placing borrower in medium risk, so approved."
+  },
+  {
+    "borrower_name": "Elena",
+    "monthly_income": 3700,
+    "monthly_debt": 1110,
+    "dti_ratio": 30.0,
+    "repayment_history": "Good",
+    "risk_level": "MEDIUM",
+    "decision": "APPROVE",
+    "reason": "DTI is 30% and repayment history is good, so risk is medium and the loan is approved."
+  },
+  {
+    "borrower_name": "Kiran",
+    "monthly_income": 8200,
+    "monthly_debt": 2460,
+    "dti_ratio": 30.0,
+    "repayment_history": "Poor",
+    "risk_level": "HIGH",
+    "decision": "REJECT",
+    "reason": "DTI is 30% and poor repayment history pushes risk to high, so loan is rejected."
+  },
+  {
+    "borrower_name": "James",
+    "monthly_income": 6600,
+    "monthly_debt": 990,
+    "dti_ratio": 15,
+    "repayment_history": "Excellent",
+    "risk_level": "LOW",
+    "decision": "APPROVE",
+    "reason": "DTI is 15% and repayment history is excellent, indicating low risk."
   }
 ]
